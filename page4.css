@@ -73,106 +73,95 @@ a {
 
 .navmid_bot {
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 300;
     color: white;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 .main_box {
-    background-color: #006C61;
-    color: white;
+    background-color: transparent;
+    color: #212121;
     margin-left: 300px;
     margin-top: 60px;
-    width:230px;
+    width: 130px;
     height: 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px; 
+    text-align: left;
+    border-bottom: 3.5px solid #006C61;
+    padding-bottom: 4px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
 }
 
-.main_top {
-    display: flex;
+.main_box pre {
+    margin-bottom: 20px;
 }
 
-.box1 {
-    background-color: #F8F9FD;
-    margin-left: 300px;
-    margin-top: 80px;
-    width: 300px;
-    height: 300px;
-}
-
-.plant {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.box2 {
-    background-color: #F8F9FD;
-    margin-left: 30px;
-    margin-top: 80px;
-    width: 300px;
-    height: 300px;
-}
-
-.plant2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.box3 {
-    background-color: #F8F9FD;
-    margin-left: 30px;
-    margin-top: 80px;
-    width: 300px;
-    height: 300px;
-}
-
-.plant3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.main_bot {
-    display: flex;
-}
-
-.box4 {
-    background-color: #F8F9FD;
+.main_box_main {
+    background-color: transparent;
+    color: #212121;
     margin-left: 300px;
     margin-top: 60px;
-    width: 300px;
-    height: 300px;
+    width: 130px;
+    height: 32px;
+    text-align: left;
+    border-bottom: 6px solid #006C61;
+    padding-bottom: 4px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
 }
 
-.box5 {
-    background-color: #F8F9FD;
-    margin-left: 30px;
+.main_box_cherry_tomato {
+    background-color: transparent;
+    color: #212121;
+    margin-left: 300px;
     margin-top: 60px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 32px;
+    text-align: left;
+    border-bottom: 6px solid #006C61;
+    padding-bottom: 4px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
 }
 
-.box6 {
+.table-info {
+    margin-left: 300px;
+    margin-top: 45px;
+    margin-bottom: 100px;
+    width: 1180px;
+    color: #777777;
+    border-top: 1px solid #D9D9D9;
+}
+  
+.table-info th {
     background-color: #F8F9FD;
-    margin-left: 30px;
-    margin-top: 60px;
-    width: 300px;
-    height: 300px;
+    color: #212121;
+    width: 180px;
+    font-weight: 450;
+    font-size: 18px;
+    border-bottom: 1px solid #D9D9D9;
 }
-
+  
+.table-info td {
+    font-size: 18px;
+    border-bottom: 1px solid #D9D9D9;
+}
 .navbot {
     justify-content: space-between;
     background-color: #e5e5ea;;
     width: auto;
     height: 199px;
-    margin-top: 200px;
+    margin-top: 250px;
     padding-top: 25px;
 }
 
